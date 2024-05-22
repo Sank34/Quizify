@@ -25,6 +25,7 @@ function App() {
           Edit <code>src/App.tsx</code> and save to test HMR
         </p>
       </div>
+      {/* add more here idk, i'll see after i finish schoo ig, we needz the landing page!!! */}
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
