@@ -68,8 +68,7 @@ Publicul tinta este format din:
 - **Tailwind CSS** - este un framework utilitar care facilitează dezvoltarea rapidă și personalizată a interfețelor, menținând un design consistent și modern.
 
 ***Justificarea folosirii React***
-
-
+Un component simplu de React care afișează un mesaj de bun venit.
 
 Exemplu:
 
@@ -90,6 +89,7 @@ export default App;
 ```
 
 ***Justificarea folosirii Typescript***
+Un component React simplu scris în TypeScript care afișează un mesaj de bun venit.
 
 Exemplu:
 ```jsx
@@ -108,6 +108,8 @@ export default App;
 ```
 
 ***Justificarea folosirii Shadcn***
+Utilizarea unui component predefinit din Shadcn pentru a afișa un buton stilizat.
+
 Exemplu:
 ```jsx
 // Fișierul Button.js
@@ -122,6 +124,8 @@ export default CustomButton;
 ```
 
 ***Justificarea folosirii TailwindCSS***
+Un component React simplu cu stilizare Tailwind CSS.
+
 Exemplu:
 ```jsx
 // Fișierul App.js
@@ -140,6 +144,8 @@ export default App;
 ```
 
 ***Justificarea folosirii ReactQuery***
+Un component React simplu care folosește React Query pentru a obține date de la un API.
+
 Exemplu:
 ```jsx
 // Fișierul DataComponent.js
@@ -167,7 +173,7 @@ export default DataComponent;
 
 Un exemplu simplu de cod pentru integrarea Appwrite într-o aplicație React. Acest exemplu demonstreaza cum putem să configuram Appwrite și să creezi un utilizator nou.
 
-### Configurarea Appwrite și Crearea unui Utilizator Nou
+### Configurarea Appwrite și Crearea unui Utilizator Nou folosind AppWrite
 
 1.  **Instalare:** Asigură-te că ai instalat SDK-ul Appwrite pentru JavaScript.
 
@@ -192,6 +198,7 @@ const account = new Account(client);
 
 export { client, account };
 ```
+
 3.  **Crearea unui Utilizator Nou:** Creează un component React pentru a înregistra un utilizator nou folosind Appwrite.
 
 ```jsx
@@ -250,6 +257,7 @@ const Register = () => {
 
 export default Register;
 ```
+
 ### Explicație
 
 1.  **Configurare Appwrite (`appwriteConfig.js`):**
@@ -313,7 +321,10 @@ npm run dev
 Acum putem deschide [http://localhost:5173](http://localhost:5173) in browser pentru a vedea proiectul.
 
 ## **Testimoniale**
-*In curand*...
+
+### ***Prof. Consilier Scolar Rodica Popa***
+> ...
+
 
 
 <div style="page-break-after: always;"></div>
